@@ -33,14 +33,6 @@ The application is deployed on a production-grade Linux environment using **Orac
 
 ## 🏗️ Architecture
 
-```mermaid
-graph TD
-    A[GitHub Repository] -->|SSH Deployment| B[Oracle Cloud VM <br> Oracle Linux 9]
-    B --> C[Nginx Web Server]
-    C --> D[React Build <br> dist/]
-    D --> E[HTTPS <br> Certbot SSL]
-    E --> F[DuckDNS Domain]
-🚀 Features
 Cloud Infrastructure: Production deployment on Oracle Cloud VM.
 
 Web Serving: Static hosting using Nginx with Single Page Application (SPA) routing support.
